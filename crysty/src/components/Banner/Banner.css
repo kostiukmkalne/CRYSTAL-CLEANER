@@ -1,0 +1,101 @@
+.banner-component {
+  position: relative;
+  display: flex;
+
+  margin-top: 36px;
+}
+
+.banner-text-button {
+  position: static;
+  width: 426px;
+  height: 195px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 0px;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 32px 0px;
+
+  margin-right: 42px;
+}
+
+.title {
+  color: #2E4B56;
+  font-family: Fixel Display;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+
+  margin-bottom: 32px;
+}
+
+.subtitle {
+  color: #2E4B56;
+  font-family: Fixel;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0px;
+  text-align: left;
+
+  margin-bottom: 72px;
+}
+
+.button-book {
+  display: flex;
+  width: 220px;
+  padding: 12px 16px;
+  margin-top: 44px;
+  margin-left: 525px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+
+  border-radius: 100px;
+  background-color: #95E088;
+  color: #fff;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.banner-block {
+  height: 100%;
+  width: 100%;
+  padding: 24px 24px 24px 24px;
+}
+
+.star-block {
+  margin-top: 44px;
+  margin-bottom: 20px;
+}
+
+.check-block {
+  margin-top: 62px;
+  margin-bottom: 20px;
+}
+
+.dimond-block {
+  margin-top: 62px;
+  margin-bottom: 20px;
+}
+
+.lamp-block {
+  margin-top: 62px;
+  margin-bottom: 20px;
+}
+
+.banner {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 0 auto;
+  margin-top: 56px;
+}

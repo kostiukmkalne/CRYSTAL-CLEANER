@@ -11,6 +11,7 @@ const Header = () => (
     </a>
 
     <Navigation />
+
     <a href="tel:+1 (847)391-1008" className="phone_number">
       <img src={phone} alt="phone" />
       +1 (847)391-1008
